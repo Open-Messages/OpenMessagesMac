@@ -1,0 +1,17 @@
+.build/
+build/
+*.app
+GoogleService-Info.plist
+.DS_Store
+.swiftpm/
+
+# Xcode user data
+xcuserdata/
+DerivedData/
+
+# Signing certificates, profiles and secrets: never commit.
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+.env*
